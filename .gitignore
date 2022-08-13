@@ -39,6 +39,7 @@
 
 config/cloudinary.yml
 config/mongoid.yml
+config/database.yml
 *.sql
 config/app_config_private*.yml
 # Elastic Beanstalk Files
