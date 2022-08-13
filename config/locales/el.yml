@@ -1,0 +1,308 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+el:
+  hello: "Καλημέρα στον Κόσμο μας"
+  Ellinika: "Ελληνικά"
+  el: "Ελληνικά"
+  Italian: "Ιταλικά"
+  English: "Αγγλικά"
+  en: "Αγγλικά"
+  fr: "Γαλλικά"
+  de: "Γερμανικά"
+  Home: "Αρχική"
+  About: "Σχετικά"
+  About me: "Σχετικά με μένα"
+  Personal: "Προσωπικά"
+  Menu: Μενού
+  User: Χρήστης
+  Social: Κοινωνικά
+  Contact: Επαφή
+  Invalid: "Μη έγκυρο"
+  password: "κωδικός"
+  Partners: Συνεργάτες
+
+  Search: Αναζήτηση
+  BioPool: Βιοπισίνες
+  Screen: Προθήκες
+
+  Asko: Ασκώ
+  Vision: Όραμα
+  My Vision: Το Όραμα μου
+  Potential Support: Υποστήριξη Δυναμικού
+  PositiveChannel: Θετικό Κανάλι
+  Tools: Εργαλεία
+  Interesting: Ενδιαφέρουσες πληροφορίες
+  Alternative: Εναλλακτικά
+  Community Model: Πρότυπο Κοινότητας
+  Airbnb: Airbnb
+  Information: Πληροφορίες
+  Management: Διαχείριση
+  Host: Οικοδεσπότης
+  Etc: Διάφορα
+  EFKA - Family Doctor: ΕΦΚΑ - Οικογενειακός Ιατρός
+  Liberation: Απελευθέρωση
+  Words of Wisdom: Ρήσεις Σοφίας
+  UAeg Course Life Coaching: Π.Αιγ. Συμβουλευτική Ζωής
+  20181013 Salmont: 13/10/18 Ε. Σάλμοντ
+  20181110 Kyrikakis: 10/11/18 Ε. Κυρικάκη
+  Detox: Αποτοξίνωση
+  For Sale - Apartment in Nea Artaki - Evia - Greece: Πωλείται - Διαμέρισμα στη Νέα Αρτάκη
+  Public Services: Δημόσιες Υπηρεσίες
+  Latest posts: Tελευταίες δημοσιεύσεις
+  Footer-Text-1: Ευτυχία είναι να Βιώνω την Ευλογία της κάθε Στιγμής, ότι και αν περιέχει αυτή.
+  Footer-Text-2: Έχω ήδη ότι χρειαζόμαι, είμαι Πλήρης την κάθε Στιγμή.
+  Footer-Text-3: Όλα γίνονται πάντα για κάποιο λόγο και πάντα για το Καλό μου, είτε για το Προσωπικό είτε για το Ευρύτερο.
+  Footer-Text-4: Η Ζωή είναι ένα σύνολο από Υπέροχες Προκλήσεις που καλούμαστε να Κατακτήσουμε.
+  Welcome: Καλώς Ήρθατε
+
+  Welcome to my web site: Καλώς ήρθατε στον ιστότοπο μου
+
+  Contact with me: Επικοινωνήστε μαζί μου
+  Send Message: Αποστολή Μηνύματος
+
+  Account Entries: Κινήσεις λογαριασμού
+  Completed: Ολοκληρωμένες
+  Due: Σε εκκρεμότητα
+  Date: Ημ/νία
+  Entry Info: Περιγραφή κίνησης
+  Credit: Χρέωση
+  Debit: Πίστωση
+
+  Data Guardian: Data Guardian
+  guardian: Data Guardian
+  Guardian: Data Guardian
+  Guardian_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "Data Guardian".
+  Guardian_about: Έχει σαν σκοπό να δώσει την δυνατότητα σε όποιον το χρειάζεται, να καταχωρεί και να διαχειρίζεται στοιχεία - δεδομένα, είτε σε προσωπικό επίπεδο, είτε σε ομαδικό (εταιρικό, κλπ)
+
+  Data Keeper: Data Keeper
+  Keeper: Data Keeper
+  Keeper_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "Data Keeper".
+  Keeper_about: Έχει σαν σκοπό να δώσει την δυνατότητα σε όποιον το χρειάζεται, να καταχωρεί και να διαχειρίζεται στοιχεία - δεδομένα, είτε σε προσωπικό επίπεδο, είτε σε ομαδικό (εταιρικό, κλπ)
+
+  APGortsilas: APGortsilas
+  APGortsilas_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "Ανδρέα Γκορτσίλα".
+  APGortsilas_about: Πληροφορίες σχετικά με τον Ανδρέα, ποιος είναι, τι κάνει, ποιο το όραμα του.
+  #  APGortsilas: Ανδρέας Π. Γκορτσίλας
+
+  aAon: αΑών
+  aaon: αΑών
+  aAon_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "αΑών - Ανδρέα Γκορτσίλα".
+  aAon_about: Πληροφορίες σχετικά με τον αΑών - Ανδρέα, ποιος είναι, τι κάνει, ποιο το όραμα του.
+
+  AA: Άννα Samadhi & αΑών
+  AA_descr: Καλώς ήρθατε στον διαδικτυακό μας χώρο.
+  AA_about: Πληροφορίες σχετικά με εμάς.
+
+  ADamigou: ADamigou
+  ITGAIA: IT Gaia
+  ITGAIA_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "IT Gaia"
+  ITGAIA_about: Η IT Γαία δραστηριοποιείται στο τομέα της πληροφορικής και γενικότερα της τεχνολογίας στην Χαλκίδα, στην ευρύτερη περιοχή της Εύβοιας, στην Αθήνα, στην ευρύτερη περιοχή της Αττικής-Βοιωτίας αλλά και σε όλη την Ελλάδα και στο εξωτερικό.
+  AMAZINGGAIA: Υπέροχη Γαία
+  AMAZINGGAIA_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "Υπέροχη Γαία"
+  AMAZINGGAIA_about: Το «Υπέροχη Γαία» είναι ένας μη κερδοσκοπικός οργανισμός που δημιουργήθηκε τον Ιανουάριο του 2013?.
+  AGGATE: Amazing Gaia Gate
+  AGGATE_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "Amazing Gaia Gate"
+  AGGATE_about: Το «Amazing Gaia Gate» είναι μία διαδικτυακή "πύλη" που δίνει την δυνατότητα σε κάποιον που δεν έχει δικό του domain name και διαδικτυακή υποδομή να αποκτήσει παρουσία στο διαδίκτυο.
+  ELZEEN: ΕΛ ΖΗΝ
+  ELZEEN_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "ΕΛ ΖΗΝ"
+  ELZEEN_about: Το «ΕΛ ΖΗΝ» είναι ένας μη κερδοσκοπικός οργανισμός που δημιουργήθηκε τον Ιούλιο του 2013
+  PSA: Πιστεύω στον Άνθρωπο
+  PSA_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "Πιστεύω στον Άνθρωπο"
+  PSA_about: Το «Πιστεύω στον Άνθρωπο» είναι ένας μη κερδοσκοπικός οργανισμός που δημιουργήθηκε τον Ιανουάριο του 2013.
+  WTLIFE: Καλώς Ήρθες στην Ζωή
+  WTLIFE_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "Καλώς Ήρθες στην Ζωή"
+  WTLIFE_about: Το «Καλώς Ήρθες στην Ζωή» είναι ένας μη κερδοσκοπικός οργανισμός
+  ELZSEL: ΕΛ ΖΗΝ - ΕΠΙΛΕΓΜΕΝΑ
+  ELZSEL_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "ΕΛ ΖΗΝ - ΕΠΙΛΕΓΜΕΝΑ"
+  ELZSEL_about: Το «ΕΛ ΖΗΝ - ΕΠΙΛΕΓΜΕΝΑ» είναι ένας μη κερδοσκοπικός οργανισμός
+  MD: Μανιτάρια ΔΙΡΦΥΣ
+  MD_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "Μανιτάρια ΔΙΡΦΥΣ"
+  Dirfys Water: Νερά ΔΙΡΦΥΣ
+  DWTR: Νερά ΔΙΡΦΥΣ
+  DWTR_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "Νερά ΔΙΡΦΥΣ"
+  Anasama: Anasama
+  ANASAMA: Anasama
+  ANASAMA_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "Anasama"
+  Eukoli Lisi: Εύκολη Λύση
+  EUKOLILISI: Εύκολη Λύση
+  EUKOLILISI_descr: Καλώς ήρθατε στον διαδικτυακό χώρο του "Εύκολη Λύση"
+  orario leitourgias: 'Ωράριο λειτουργίας'
+  orario mon: 'Δευ: 7:30 πμ – 8:00 μμ'
+  orario tue: 'Τρί: 7:30 πμ – 8:00 μμ'
+  orario wed: 'Τετ: 7:30 πμ – 9:00 μμ'
+  orario thu: 'Πεμ: 7:30 πμ – 8:00 μμ'
+  orario fri: 'Παρ: 7:00 πμ – 7:30 μμ'
+  orario sat: 'Σαβ: 9:00 πμ – 2:00 μμ'
+  orario sun: 'Κυρ: Κλειστά'
+
+  Info: Πληροφορίες
+  Info_descr_company: Χρήσιμες Πληροφορίες για την εταιρία μας
+  Info_descr_personal: Χρήσιμες Πληροφορίες για εμάς
+
+  Log In:  Σύνδεση
+  Log Out:  Αποσύνδεση
+  Sign Up:  Εγγραφή
+  Change History: Ιστορικό Αλλαγών
+  Scrape: Scrape
+  Duplicate: Αντιγραφή
+
+  Dear: Αγαπητέ(ή)
+  Thank you for your kind message: Σας ευχαριστούμε για το καλοπροαίρετο μήνυμα σας
+  We will reply to you as soon as possible: Θα σας απαντήσουμε το συντομότερο δυνατό
+  Your message details are: Το μήνυμα που μας στείλατε είναι
+  We wish, to you and to all of us, a wonderful continuation to our day: Ευχόμαστε, σε εσάς αλλά και σε όλους μας, μία υπέροχη συνέχεια στην ημέρα μας
+  from: από τον
+  You have a new message from: Έχετε ένα νέο μήνυμα από τον
+
+  full_name_validates_presence_msg: Είναι κενό (το όνομα ή το επίθετο πρέπει να υπάρχει)
+
+  Errors: Λάθη
+
+  time:
+    formats:
+      default: "%Y/%m/%d"
+      short: "%b %d"
+      long: "%d %B %Y %H:%M"
+  date:
+    month_names:
+    - dummy
+    - Ιανουάριος
+    - Φεβρουάριος
+    - Μάρτιος
+    - Απρίλιος
+    - Μάιος
+    - Ιούνιος
+    - Ιούλιος
+    - Αύγουστος
+    - Σεπτέμβριος
+    - Οκτώμβριος
+    - Νοέμβριος
+    - Δεκέμβριος
+
+  activerecord:
+    models:
+      contact_us: Επικοινωνία
+    attributes:
+      contact_us:
+        name: "Όνομα"
+        email: "E-mail"
+        message: "Μήνυμα"
+        validate_me: "Επιβεβαίωση! Πόσο κάνει 15+5"
+    errors:
+      messages:
+        record_invalid: "Το record δεν είναι σωστό"
+# TODO: why is this needed??? It is shown when omit "inverse_of" in entity.rb
+#      models:
+#        entity_connection:
+#          attributes:
+#            one_entity:
+#              required: "requiredddd"
+#            other_entity:
+#              required: "requiredddd"
+
+
+  Data not exist: 'Δεν υπάρχουν δεδομένα'
+  Count: 'Count'
+  Total Entities: 'Συνολικά'
+  Contact Us: 'Επικοινωνία'
+
+  Task: 'Εκκρεμότητα'
+  Tasks: 'Εκκρεμότητες'
+  New Task: 'Νέα Εκκρεμότητα'
+  Generic: 'Generic Entity'
+  Generics: 'Generic Entities'
+  New Generic: 'New Generic Entity'
+  Tag: 'Tag'
+  Tags: 'Tags'
+  New Tag: 'New Tag'
+  Part: 'Ανταλλακτικό'
+  Parts: 'Ανταλλακτικά'
+  New Part: 'Νέο Ανταλλακτικό'
+  Machine: 'Μηχάνημα'
+  Machines: 'Μηχανήματα'
+  New Machine: 'Νέο Μηχάνημα'
+  Manufacturer: 'Κατασκευαστής'
+  Manufacturers: 'Κατασκευαστές'
+  New Manufacturer: 'Νέος Κατασκευαστής'
+
+  Project: 'Έργο'
+  Projects: 'Έργα'
+  EntProject: 'Έργο'
+  EntProjects: 'Έργα'
+
+  Service: 'Υπηρεσία'
+  Services: 'Υπηρεσίες'
+  EntService: 'Υπηρεσία'
+  EntServices: 'Υπηρεσίες'
+
+  Link: 'Σύνδεσμος'
+  Links: 'Σύνδεσμοι'
+  EntLink: 'Σύνδεσμος'
+  EntLinks: 'Σύνδεσμοι'
+
+  Note: 'Σημείωση'
+  Notes: 'Σημειώσεις'
+  EntNote: 'Σημείωση'
+  EntNotes: 'Σημειώσεις'
+
+  entity:
+    EntAccount: 'Λογαριασμός'
+    Contact: 'Επαφή'
+    ContactUs: 'Επικοινωνία'
+    Task: 'Εκκρεμότητα'
+
+  i18n:
+    transliterate:
+      rule:
+        η: "i"
+        υ: "u"
+        ξ: "j"
+
+#  contact_us_validate_label: 'Επιβεβαίωση! Πόσο κάνει 15+5'
+  helpers:
+    label:
+      contact_us:
+        name: "Όνομα"
+        message: "Μήνυμα"
+        validate_me: "Επιβεβαίωση! Πόσο κάνει 15+5"
+#  mongoid:
+#    contact_us:
+#      attributes:
+#        validate_me: "Επιβεβαίωση! Πόσο κάνει 15+5"
+
+  hero_msg_1_pre_title: Full-Stack Προγραμματιστης και Οδηγος Προσωπικης Εξελιξης
+  hero_msg_1_title: Προγραμματίζοντας την νέα μας Πραγματικότητα
+  hero_msg_1_title_b: Προγραμματίζοντας την νέα μας Πραγματικότητα για τη νέα Γη
+  hero_msg_1_sub_title: Μια ολιστική προσέγγιση στη διάθεσή σας για την υποστήριξη των αναγκών σας
+  hero_msg_1_button: Επικοινωνήστε μαζί μου
+  
+  latest_changes: Τελευταίες αλλαγές

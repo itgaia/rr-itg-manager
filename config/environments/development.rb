@@ -1,6 +1,10 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
+  # Configure 'rails notes' to inspect Cucumber files
+  config.annotations.register_directories('features')
+  config.annotations.register_extensions('feature') { |tag| /#\s*(#{tag}):?\s*(.*)$/ }
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded any time
@@ -58,4 +62,23 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+  # Configure email
+  # TODO: Να επιτρέπονται οι λιγότερο ασφαλείς εφαρμογές: disable! https://myaccount.google.com/lesssecureapps?utm_source=google-account&utm_medium=web
+  config.action_mailer.default_url_options = { host: 'localhost', port: 4444 }
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default :charset => 'utf-8'
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.perform_caching = false
+  config.action_mailer.smtp_settings = {
+    domain: 'gmail.com',
+    address: 'smtp.gmail.com',
+    port: 587,
+    authentication: :plain,
+    enable_starttls_auto: true,
+    openssl_verify_mode: 'none',
+    user_name: Rails.application.credentials.email ? Rails.application.credentials.email[:usr] : 'some-user',
+    password: Rails.application.credentials.email ? Rails.application.credentials.email[:psw] : 'some-psw',
+  }
+  config.action_mailer.preview_path = "#{Rails.root}/itg_mailers/previews"
 end

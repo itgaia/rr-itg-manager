@@ -6,6 +6,10 @@ require "active_support/core_ext/integer/time"
 # and recreated between test runs. Don't rely on the data there!
 
 Rails.application.configure do
+  # Configure 'rails notes' to inspect Cucumber files
+  config.annotations.register_directories('features')
+  config.annotations.register_extensions('feature') { |tag| /#\s*(#{tag}):?\s*(.*)$/ }
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Turn false under Spring and add config.action_view.cache_template_loading = true.
@@ -40,6 +44,8 @@ Rails.application.configure do
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
 
+  config.action_mailer.default_url_options = { host: 'localhost', port: 4444 }
+
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
 
@@ -54,4 +60,6 @@ Rails.application.configure do
 
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
+
+  TEST_DOMAIN = 'itg-dev.local'
 end
