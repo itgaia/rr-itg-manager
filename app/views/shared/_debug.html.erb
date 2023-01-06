@@ -1,0 +1,27 @@
+<hr/>
+<p>Debug Info</p>
+<%#=  %>
+<!--<p>Params: <%#= debug(params) %>-->
+<p>
+  Params: <%= params.inspect %><br/>
+  request.subdomain: <%= request.subdomain.inspect %><br/>
+  <!--  current_subdomain: <%#= current_subdomain.inspect %><br/>-->
+  request.original_url: <%= request.original_url %><br/>
+  <!--  <button class="btn" data-toggle="collapse" data-target="#request_info">-->
+  <!--    Request Info:-->
+  <!--  </button>-->
+  <!--  <div id="request_info" class="collapse">-->
+  <%#= ap(request, plain: true).html_safe %>
+  <%#= debug(PP.pp(request.inspect, '')) %>
+  <%#= JSON.pretty_generate(request.inspect) %>
+  <!--  </div>-->
+</p>
+<p>
+  Current locale: <%= I18n.locale %>
+  <% if respond_to?(:current_user) && current_user %>
+    <br/>
+    Current user: <%= current_user.username %>
+    <br/>
+    Current context: <%= current_user.context %>
+  <% end %>
+</p>
